@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+}
+
+#logo {
+  float: left;
+}
+
+#contents {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
+
+#form-left {
+ position: absolute;
+}
+#form-right {
+  position: absolute;
+
+}
+
+#textarea {
+  width: 100%;
+  height: 300px;
+}
+li {
+  font-size: 20px;
+  list-style: none;
+  font-weight: bold;
+  color: rgba(80, 120, 78, 1);
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+}
+
+h1 {
+  color: rgba(80, 120, 78, 1);
+}
+
+p {
+  color:rgba(80, 120, 78, 1)
+}
+

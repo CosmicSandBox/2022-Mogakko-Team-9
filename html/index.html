@@ -5,37 +5,63 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>메인 페이지</title>
+  <link rel="stylesheet" href="style2-1.css">
 </head>
 <body>
   <div id="container">
     <header>
-      <div id="logo">
+        <a href="main.html"><img src="logo.png" id="logo" alt="로고" width="219" height="128"></a>
+    </header>
 
-      </div>
-      <nav>
+    <div id="contents">
+      <form id="form-left">
         <ul>
           <li>
-
+            <label for="cor-name">기업명</label>
+            <input type="text" id="cor-name">
           </li>
           <li>
-
+            <label for="user-name">대표자 성함</label>
+            <input type="text" id="user-name">
+          </li>
+          <li>
+            <label for="user-tel">대표자 번호</label>
+            <input type="tel" id="user-tel">
           </li>
         </ul>
-      </nav>
-    </header>
-    <div id="slideShow">
-
+      </form>
+      <form id="form-right">
+        <ul>
+          <li>
+            <label for="cor-num">사업자 번호</label>
+            <input type="number" id="cor-num">
+          </li>
+          <li>
+            <label for="cor-tel">기업 연락처</label>
+            <input type="tel" id="cor-tel">
+          </li>
+          <li>
+            <label for="cor-email">기업 이메일</label>
+            <input type="email" id="cor-email">
+          </li>
+        </ul>
+      </form>
     </div>
-    <div id="contents">
-      <div id="tabMenu">
-
+      <div id="textarea">
+        <h1>문의 사항</h1>
+        <label for="memo"></label>
+        <textarea id="memo" cols="100" rows="10"></textarea>
       </div>
-      <div id="links">
-
-      </div>
-    </div>
     <footer>
-
+      <div id="info">
+        <p><small>개인정보의 수집 및 이용에 대한 안내<br>
+          · 수집 항목 : 기업명, 사업자번호, 대표자 성함, 기업 연락처, 이메일
+          · 수집 목적 : COESG 교육 신청에 필요한 내용 수집<br>
+          · 보유 기간 : 수집 및 이용목적이 달</small></p>
+      </div>
+      <div id="register-button">
+        <input type="button" value="교육 신청" onclick="window.open('edu-regi.html')">
+      </div>
     </footer>
   </div>
 
